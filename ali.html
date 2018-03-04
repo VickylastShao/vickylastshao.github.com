@@ -4,15 +4,19 @@
   <meta charset="utf-8"/>
   <title>Marked in the browser</title>
   <script src="marked.min.js"></script>
+  <script src="//cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.js"></script>
 </head>
 <body>
   <div id="content"></div>
   <script>
     
-    document.getElementById('content').innerHTML =
-      marked('# Marked in browser\n\nRendered by **marked**.');
+    // document.getElementById('content').innerHTML =
+     //  marked('# Marked in browser\n\nRendered by **marked**.');
 
+    $(document).ready(function(){
+    $('#content').load('AlibabaCloudComputingSetUp.md')
     
+    })
   </script>
 </body>
 </html>
