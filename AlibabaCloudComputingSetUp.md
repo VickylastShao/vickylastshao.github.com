@@ -1,0 +1,4 @@
+### 阿里云服务器注册与使用手册(简化版)
+## 准备工作
+手机下载安装阿里云app:
+![image](https://note.youdao.com/favicon.ico)
