@@ -8,6 +8,9 @@
 6. 电脑浏览器打开https://www.aliyun.com/ 
 7. 右上角点击登录。
 ![image](images/2.png)
-8. 采用账号或手机登录阿里云
+8. 使用账号或手机登录阿里云
+9. 登录成功之后，右上角点击进入“控制台”
+![image](images/3.png)
+![image](images/4.png)
 
 
