@@ -13,8 +13,12 @@
     // document.getElementById('content').innerHTML =
      //  marked('# Marked in browser\n\nRendered by **marked**.');
 
+    
     $(document).ready(function(){
-    $('#content').load('AlibabaCloudComputingSetUp.md')
+      $.get("AlibabaCloudComputingSetUp.md", function(response, status, xhr){ 
+$("#content").html(marked(response)); 
+});
+    //$('#content').load('AlibabaCloudComputingSetUp.md')
     
     })
   </script>
