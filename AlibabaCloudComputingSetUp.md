@@ -1,6 +1,7 @@
 # 阿里云服务器注册与使用手册(简化版)
 
 
+
 ## 准备工作
 ---
 - 手机下载安装阿里云app:![image](images/1.jpg)  
@@ -92,7 +93,7 @@
 
     打开本机远程桌面连接(mstsc)，输入列表中实例的公网IP地址，登录用户名默认administrator，密码为刚才设置的登录密码，即可登录该服务器，开始工作  
 
-![image](images/11.png)  
+![image](images/11.png)  
 
 ![image](images/15.png)  
 
