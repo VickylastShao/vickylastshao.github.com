@@ -6,11 +6,11 @@
 4. 手机绑定
 5. 在“控制台选项卡”选择并开启“虚拟MFA”
 6. 电脑浏览器打开https://www.aliyun.com/ 
-7. 右上角点击登录。<br/>
-<div align=center> ![image](images/2.png)
+7. 右上角点击登录。  
+![image](images/2.png)
 8. 使用账号或手机登录阿里云
-9. 登录成功之后，右上角点击进入“控制台”
-![image](images/3.png)
+9. 登录成功之后，右上角点击进入“控制台”  
+![image](images/3.png)  
 ![image](images/4.png)
 
 
