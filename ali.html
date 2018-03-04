@@ -8,10 +8,10 @@
 <body>
   <div id="content"></div>
   <script>
-  $(document).ready(function(){
-  $('#content').load('AlibabaCloudComputingSetUp.md')
-  
-  })
+    
+    document.getElementById('content').innerHTML =
+      marked('# Marked in browser\n\nRendered by **marked**.');
+
     
   </script>
 </body>
