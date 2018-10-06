@@ -75,7 +75,7 @@
             </div>
         </div>                                                      <!-- index ends here -->
 
-        <div id="about_scroll" class="pages" style="display:none">                      <!-- about strats here  -->
+        <div id="about_scroll" class="pages">                      <!-- about strats here  -->
             <div class="container main">
                 <div class="row">
                     <div class="col-md-6 left" id="about_left"  style="margin-top:90px">
@@ -98,7 +98,7 @@
         
         
         
-        <div id="research_scroll" class="pages" style="display:none">                                  <!-- Research starts here -->
+        <div id="research_scroll" class="pages">                                  <!-- Research starts here -->
             <div class="container main">
                 <div class="row">
                     <div class="col-md-6" id="research_left"  style="margin-top:90px">
@@ -121,7 +121,7 @@
             </div>    
         </div>                                                                 <!-- Research ends here  -->
 
-        <div id="publication_scroll" class="pages" style="display:none">                                  <!-- Publication starts here -->
+        <div id="publication_scroll" class="pages">                                  <!-- Publication starts here -->
             <div class="container main">
                 <div class="row">
                     <div class="col-md-6" id="publication_left"  style="margin-top:90px">
@@ -144,7 +144,7 @@
             </div>    
         </div>                                                                 <!-- Publication ends here  -->
         
-        <div id="interest_scroll" class="pages" style="display:none">                                  <!-- Interest starts here -->
+        <div id="interest_scroll" class="pages">                                  <!-- Interest starts here -->
             <div class="container main">
                 <div class="row">
                     <div class="col-md-6" id="research_left"  style="margin-top:90px">
@@ -167,7 +167,7 @@
             </div>    
         </div>                                                                 <!-- Interest ends here  -->
         
-        <div id="contact_scroll" class="pages" style="display:none">                             <!-- Contact starts here -->
+        <div id="contact_scroll" class="pages">                             <!-- Contact starts here -->
             <div class="container main">
                 <div class="row">
                     <div class="col-md-6 left" id="contact_left" style="margin-top:90px">
@@ -219,43 +219,38 @@
             
             $(document).ready(function () {
 
-                //$("#about_scroll").fadeOut();
-                //$("#research_scroll").fadeOut();
-                //$("#publication_scroll").fadeOut();
-                //$("#interest_scroll").fadeOut();
-                //$("#contact_scroll").fadeOut();
+                $("#about_scroll").fadeOut();
+                $("#research_scroll").fadeOut();
+                $("#publication_scroll").fadeOut();
+                $("#interest_scroll").fadeOut();
+                $("#contact_scroll").fadeOut();
 
                 $("#about").click(function () {
                     $("#index").fadeOut();
-                    document.getElementById("about_scroll").style.display="";
                     $("#about_scroll").fadeIn();
                     $('#about_left').addClass('animated slideInLeft');
                     $('#about_right').addClass('animated slideInRight');
                 });
                 $("#research").click(function () {
                     $("#index").fadeOut();
-                    document.getElementById("research_scroll").style.display="";
                     $("#research_scroll").fadeIn();
                     $('#research_left').addClass('animated slideInLeft');
                     $('#research_right').addClass('animated slideInRight');
                 });
                 $("#publication").click(function () {
                     $("#index").fadeOut();
-                    document.getElementById("publication_scroll").style.display="";
                     $("#publication_scroll").fadeIn();
                     $('#publication_left').addClass('animated slideInLeft');
                     $('#publication_right').addClass('animated slideInRight');
                 });
                 $("#interest").click(function () {
                     $("#index").fadeOut();
-                    document.getElementById("interest_scroll").style.display="";
                     $("#interest_scroll").fadeIn();
                     $('#interest_left').addClass('animated slideInLeft');
                     $('#interest_right').addClass('animated slideInRight');
                 });
                 $("#contact").click(function () {
                     $("#index").fadeOut();
-                    document.getElementById("contact_scroll").style.display="";
                     $("#contact_scroll").fadeIn();
                     $('#contact_left').addClass('animated slideInLeft');
                     $('#contact_right').addClass('animated slideInRight');
@@ -263,7 +258,6 @@
 
                 $(".back").click(function () {                    
                     $(".pages").fadeOut();
-                    document.getelementbyclassname("pages").style.display="none";
                     $("#index").fadeIn();
                     $('#index_left').addClass('animated slideInLeft');
                     $('#index_right').addClass('animated slideInRight');
