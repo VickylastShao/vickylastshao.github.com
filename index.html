@@ -227,31 +227,35 @@
 
                 $("#about").click(function () {
                     $("#index").fadeOut();
+                    document.getElementById("about_scroll").style.display="";
                     $("#about_scroll").fadeIn();
                     $('#about_left').addClass('animated slideInLeft');
                     $('#about_right').addClass('animated slideInRight');
                 });
                 $("#research").click(function () {
                     $("#index").fadeOut();
+                    document.getElementById("research_scroll").style.display="";
                     $("#research_scroll").fadeIn();
                     $('#research_left').addClass('animated slideInLeft');
                     $('#research_right').addClass('animated slideInRight');
                 });
                 $("#publication").click(function () {
                     $("#index").fadeOut();
+                    document.getElementById("publication_scroll").style.display="";
                     $("#publication_scroll").fadeIn();
                     $('#publication_left').addClass('animated slideInLeft');
                     $('#publication_right').addClass('animated slideInRight');
                 });
                 $("#interest").click(function () {
                     $("#index").fadeOut();
+                    document.getElementById("interest_scroll").style.display="";
                     $("#interest_scroll").fadeIn();
                     $('#interest_left').addClass('animated slideInLeft');
                     $('#interest_right').addClass('animated slideInRight');
                 });
                 $("#contact").click(function () {
                     $("#index").fadeOut();
-                    $("#contact_scroll").style.display="";
+                    document.getElementById("contact_scroll").style.display="";
                     $("#contact_scroll").fadeIn();
                     $('#contact_left').addClass('animated slideInLeft');
                     $('#contact_right').addClass('animated slideInRight');
@@ -259,7 +263,7 @@
 
                 $(".back").click(function () {                    
                     $(".pages").fadeOut();
-                    $(".pages").style.display="none";
+                    document.getelementbyclassname("pages").style.display="none";
                     $("#index").fadeIn();
                     $('#index_left').addClass('animated slideInLeft');
                     $('#index_right').addClass('animated slideInRight');
